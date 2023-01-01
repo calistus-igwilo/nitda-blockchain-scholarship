@@ -20,8 +20,8 @@ func main(){
 	*/
 
 	arr := [...]string {"a", "b", "c", "d", "e", "f"}
-	s1 := arr[1:4]
-	s2 := arr[2:5]
+	s1 := arr[1:3]
+	s2 := arr[2:4]
 
 	fmt.Printf("s1%s \n",s1)
 	fmt.Printf("s2%s \n", s2)
